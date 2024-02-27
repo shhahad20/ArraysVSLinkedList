@@ -29,7 +29,7 @@ We said that the array stored as a fixed set, so it doesn't grow its size at run
 ``` 
 int[] myArray = {1,2,3,4};
 // Inserting 5 new element at index 1
-// [1,2,3,4] -> [1,2,5,3,4] 
+// [1,2,3,4] -> [1,5,2,3,4] 
 ```
 
 #### Linked List:
