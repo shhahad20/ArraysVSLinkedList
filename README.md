@@ -84,3 +84,34 @@ Node current = head;
     }
     return false;
 ```
+<hr>
+
+### Usage
+#### Array:
+- Arrays are used when we need random access to the elements.
+- Arrays are used as the base of all sorting algorithms.
+- If you have a Fixed-size collection where the number of the elements does not change.
+- When the memory is a concern. Filled arrays take up less memory than linked lists.The array elements just contains the data, on the other hand, Each linked list node has the data as well as the refrence (link) to the other elements in the linked list.
+- We also use it to implement various data structure like stacks, queues, and trees.
+- We use it with matrices.
+- Arrays are commonly used in low-level programming and for implementing data structures.
+
+#### Linked List:
+- If you have a Dynamic-size collection where collection needs to dynamically grow or shrink in size.
+- If you frequently need to insert or delete elements in the middle or at the beginning of the collection.
+- When you do not need random access.
+- If we want more flexibility because each node can be allocated separately, allowing for efficient memory utilization and avoiding the need for contiguous memory.
+- Linked lists are used for performing arithmetic operations on long integers.
+- Can be used for the manipulation of polynomials.
+- We also use it to implement various data structure like stacks, queues, and trees.
+- Linked lists are often used for specific data management needs like task scheduling and memory allocation.
+
+<hr>
+
+### Memory Utilization
+#### Array:
+
+Memory utilization is ineffective in arrays. For example, if the array size is 5 and contains only 2 elements, the rest of the space will be wasted.
+
+#### Linked List:
+Memory utilization is effective, as it can be allocated or deallocated at the run time according to our requirements.
